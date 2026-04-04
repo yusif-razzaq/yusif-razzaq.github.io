@@ -1,3 +1,32 @@
+## Personal site (GitHub Pages)
+
+This repo hosts a simple static site for showcasing in-progress papers and graduate projects.
+
+No build step. Served directly by GitHub Pages. A `.nojekyll` file disables Jekyll processing.
+
+### Structure
+- `index.html` — Home
+- `papers.html` — In-progress and published papers
+- `projects.html` — Graduate projects
+- `about.html` — Bio and contact
+- `assets/css/styles.css` — Styles (light/dark with CSS variables)
+- `assets/js/theme.js` — Theme toggle with localStorage
+
+### How to update content
+- Edit the HTML lists inside `papers.html` and `projects.html`.
+- Replace placeholders and add links to PDFs, demos, and repos.
+- Update About page contact details and bio.
+- Optionally add a CV PDF under `assets/` and link it from About.
+
+### Dark mode
+- Auto-detects OS preference; manual toggle persists in `localStorage`.
+
+### Deployment
+- Push to the `main` branch. GitHub Pages will serve the latest commit.
+- If you see old Jekyll content, make sure `.nojekyll` exists at the repo root.
+
+### Optional cleanup
+Legacy lab-site directories (like `_includes`, `_layouts`, etc.) remain but are ignored by Pages due to `.nojekyll`. You can delete them at your convenience.
 # ARIA Systems Group Website - Alembic
 
 ## About

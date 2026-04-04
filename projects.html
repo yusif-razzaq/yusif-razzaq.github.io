@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects — Yusif Razzaq</title>
+    <meta name="description" content="Graduate projects and prototypes.">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%81%3C/text%3E%3C/svg%3E">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">
+          <div class="dot" aria-hidden="true"></div>
+          <a href="/" class="brand" style="text-decoration:none; color:inherit">Yusif Razzaq</a>
+        </div>
+        <nav class="nav-links">
+          <a href="/papers.html">Papers</a>
+          <a class="active" href="/projects.html">Projects</a>
+          <a href="/about.html">About</a>
+          <button class="theme-toggle" data-theme-toggle type="button" aria-label="Toggle theme">Theme</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>Projects</h1>
+        <p>Graduate work and exploratory builds. Links and write-ups as available.</p>
+      </section>
+
+      <section class="grid" style="margin-top: 24px;">
+        <div class="col-12">
+          <div class="card">
+            <h3>Showcase</h3>
+            <ul class="list">
+              <li class="list-item">
+                <div>
+                  <div><strong>Project title placeholder</strong></div>
+                  <div class="item-meta">Short one-liner about the project</div>
+                </div>
+                <div style="display:flex; gap:8px;">
+                  <a class="btn secondary" href="#" aria-disabled="true">Demo</a>
+                  <a class="btn secondary" href="#" aria-disabled="true">Repo</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        © <span id="year"></span> Yusif Razzaq
+      </div>
+    </footer>
+    <script src="/assets/js/theme.js"></script>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  </body>
+  </html>

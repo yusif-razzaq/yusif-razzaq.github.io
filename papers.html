@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Papers — Yusif Razzaq</title>
+    <meta name="description" content="In-progress and published papers.">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%96%3C/text%3E%3C/svg%3E">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">
+          <div class="dot" aria-hidden="true"></div>
+          <a href="/" class="brand" style="text-decoration:none; color:inherit">Yusif Razzaq</a>
+        </div>
+        <nav class="nav-links">
+          <a class="active" href="/papers.html">Papers</a>
+          <a href="/projects.html">Projects</a>
+          <a href="/about.html">About</a>
+          <button class="theme-toggle" data-theme-toggle type="button" aria-label="Toggle theme">Theme</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>Papers</h1>
+        <p>Drafts in progress and published work. PDFs and links as available.</p>
+      </section>
+
+      <section class="grid" style="margin-top: 24px;">
+        <div class="col-12">
+          <div class="card">
+            <h3>In progress</h3>
+            <ul class="list" id="wip-papers">
+              <li class="list-item">
+                <div>
+                  <div><strong>Working title placeholder</strong></div>
+                  <div class="item-meta">Target venue • draft v0.1</div>
+                </div>
+                <span class="pill">WIP</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="card">
+            <h3>Accepted / published</h3>
+            <ul class="list" id="published-papers">
+              <li class="list-item">
+                <div>
+                  <div><strong>Published paper placeholder</strong></div>
+                  <div class="item-meta">Venue • Year • authors</div>
+                </div>
+                <a class="btn secondary" href="#" aria-disabled="true">PDF soon</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        © <span id="year"></span> Yusif Razzaq
+      </div>
+    </footer>
+    <script src="/assets/js/theme.js"></script>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  </body>
+  </html>
