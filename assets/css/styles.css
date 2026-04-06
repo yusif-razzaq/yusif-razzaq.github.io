@@ -222,6 +222,32 @@ a { color: var(--link); }
   border: 1px solid var(--border);
 }
 
+/* Demo dropdown for project GIF previews */
+.demo-dropdown {
+  position: relative;
+}
+.demo-dropdown summary {
+  list-style: none;
+}
+.demo-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+.demo-dropdown-content {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: color-mix(in oklab, var(--card) 80%, transparent);
+  box-shadow: var(--shadow);
+  width: min(360px, 70vw);
+}
+.demo-dropdown-content img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--border);
